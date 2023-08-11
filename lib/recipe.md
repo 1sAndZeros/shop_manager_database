@@ -30,7 +30,7 @@ So I can manage orders
 I want to be able to create a new order.
 ```
 
-```
+```text
 Nouns:
 shop items, item name, item unit price, qty, create item, orders, customer name, order date, create order
 ```
@@ -42,5 +42,3 @@ Item / ItemRepository:
 Order / OrderRepository:
     parameters: customer_name, order_date
     methods: all, create
-
-
